@@ -7,3 +7,15 @@ body {
     padding: 0;
     background: #F6F6EC;;
 }
+
+.accordion {
+    max-width: 80%;
+    margin: 0 auto;
+    color: #000000;
+}
+
+@media (pointer: fine) {
+    .accordion:hover {
+        cursor: pointer;
+    }
+}
