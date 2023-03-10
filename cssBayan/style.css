@@ -14,8 +14,16 @@ body {
     color: #000000;
 }
 
+.meme-container {
+    color: #0000ff;
+}
+
 @media (pointer: fine) {
-    .accordion:hover {
+    .accordion-body:hover {
         cursor: pointer;
+    }
+
+    .accordion-body:hover .meme-container{
+        color: inherit;
     }
 }
