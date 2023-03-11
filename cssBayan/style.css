@@ -137,7 +137,7 @@ body {
     }
 }
 
-@media (pointer: fine) and (min-width: 1920px) {
+@media (hover: hover) and (min-width: 1920px) {
     .meme-container:hover .meme-image {
         width: 40%;
     }
