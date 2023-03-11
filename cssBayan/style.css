@@ -63,7 +63,7 @@ body {
     margin-bottom: 7%;
 }
 
-@media (pointer: fine) {
+@media (hover: hover) {
     .accordion-body:hover,
     .accordion-line:hover {
         cursor: pointer;
