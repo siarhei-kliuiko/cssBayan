@@ -46,15 +46,34 @@ body {
 
 .meme-image {
     width: 0;
+    height: 0;
     transition: .2s;
 }
 
+.meme-select {
+    display: none;
+}
+
+.meme-select:checked~.meme-container {
+    color: inherit;
+}
+
+.meme-select:checked~.meme-container .meme-icon {
+    transform: rotate(45deg);
+}
+
+.meme-select:checked~.meme-container .meme-image {
+    width: 80%;
+    height: auto;
+    margin-bottom: 7%;
+}
+
 @media (pointer: fine) {
-    .accordion-body:hover {
+    .accordion-body:hover, label:hover {
         cursor: pointer;
     }
 
-    .accordion-body:hover .meme-container{
+    .accordion-body:hover .meme-container {
         color: inherit;
     }
 
@@ -68,6 +87,8 @@ body {
 
     .meme-container:hover .meme-image {
         width: 80%;
+        height: auto;
+        margin-bottom: 7%;
     }
 
     .meme-container:hover .meme-icon {
