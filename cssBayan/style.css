@@ -12,6 +12,7 @@ body {
 .accordion {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 2em;
     color: #000000;
 }
 
